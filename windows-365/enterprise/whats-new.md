@@ -7,7 +7,7 @@ keywords:
 author: ErikjeMS  
 ms.author: erikje
 manager: dougeby
-ms.date: 08/29/2024
+ms.date: 10/08/2024
 ms.topic: conceptual
 ms.service: windows-365
 ms.subservice: windows-365-enterprise
@@ -54,6 +54,59 @@ For more information about public preview items, see [Public preview in Windows 
 ### Windows 365 Government
 ### Windows 365 app
 -->
+
+<!-- ########################## -->
+## Week of September 30, 2024 (Service release 2409)
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Monitor and troubleshoot
+
+#### Unavailable Cloud PCs report added to Reporting overview page<!--53687085-->
+
+The **Cloud PCs that aren't available** report has been added to the **Reports** > **Cloud PC overview** page.
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Device provisioning
+
+#### Windows 11 24H2 cloud PCs gallery images<!--53461426-->
+
+The latest Windows Enterprise 24H2 images are available for provisioning new devices. You can update your provisioning policies to use either of the following images:
+
+- Windows 11 Enterprise 24H2
+- Windows 11 Enterprise + Microsoft 365 Apps 24H2
+
+
+<!-- ########################## -->
+## Week of September 23, 2024
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Device management
+
+#### Windows 11 Cloud PCs now support EN-NZ<!--54032315-->
+
+Windows 365 Cloud PCs now support EN-NZ for Windows 11.
+
+<!-- ########################## -->
+## Week of September 16, 2024
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Device management
+
+#### Support for symmetric NAT with RDP Shortpath<!--43602619-->
+
+RDP Shortpath in Windows 365 now supports establishing an indirect UDP connection using Traversal Using Relays around NAT (TURN) for symmetric NAT. TURN is a popular standard for device-to-device networking for low latency, high-throughput data transmission with Azure Communication Services. For more information about TURN and Azure Communication Services, see [Network Traversal Concepts](/azure/communication-services/concepts/network-traversal). For more information about RDP Shortpath, see [Use RDP Shortpath for public networks with Windows 365](rdp-shortpath-public-networks.md).
+
+### Windows 365 support for HEVC video coding<!--51599459-->
+Windows 365 will support Hardware High Efficiency Video Coding (HEVC) h.265 4:2:0 on Compatible GPU-enabled Cloud PCs. For more information, see [Enable GPU acceleration for Azure Virtual Desktop](/azure/virtual-desktop/enable-gpu-acceleration?tabs=intune).
+
+<!-- vvvvvvvvvvvvvvvvvvvvvv -->
+### Windows App
+
+#### Windows App is now generally available<!--46667283-->
+
+Windows App has moved out of preview and into general availability.
+
+For more information, see [What is Windows App?](/windows-app/overview)
 
 <!-- ########################## -->
 ## Week of August 26, 2024 (Service release 2408)
@@ -137,9 +190,9 @@ New GPU offerings for Window 365 Enterprise Cloud PCs have moved out of preview 
 <!-- vvvvvvvvvvvvvvvvvvvvvv -->
 ### Windows 365 Frontline
 
-#### Windows 365 Frontline sign in time and shift change buffer improvements are now generally available<!--50220027-->
+#### The Windows 365 Frontline concurrency buffer is now generally available<!--50220027-->
 
-Sign in time and shift change buffer improvements have moved out of preview and into general availability.
+The Windows 365 concurrency buffer has moved out of preview and into general availability.
 
 <!-- ########################## -->
 ## Week of July 23, 2024
